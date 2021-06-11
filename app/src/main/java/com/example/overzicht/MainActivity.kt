@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 
 
             Intent(this, SecondActivity::class.java).also {
+                ////
 
                 if (et_jupiler.text.toString().equals("")){
 
